@@ -3,26 +3,26 @@ module.exports = {
   tagline: 'por DSC IPN - UPIITA',
   url: 'http://bootcamp-desarrollo-web.vercel.app/',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/google_developers_logo.png',
   organizationName: 'dscipnupiita', // Usually your GitHub org/user name.
   projectName: 'bootcamp-desarrollo-web', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Bootcamp Desarrollo Web',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/google_developers_logo.png',
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: 'docs/welcome',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Curso',
           position: 'left',
         },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/dscipnupiita/bootcamp-desarrollo-web',
           label: 'GitHub',
           position: 'right',
         },
@@ -32,15 +32,27 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Más Información',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: 'Bienvenida',
+              to: 'docs/welcome',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'Qué aprenderás',
+              to: 'docs/curriculum',
+            },
+            {
+              label: 'Requisitos',
+              to: 'docs/requisites',
+            },
+            {
+              label: 'Tareas y participación',
+              to: 'docs/homework',
+            },
+            {
+              label: 'Graduación',
+              to: 'docs/graduation',
             },
           ],
         },
@@ -53,7 +65,7 @@ module.exports = {
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/dscipnupiita',
+              href: 'https://discord.gg/DnChcJyEAN',
             },
             {
               label: 'Twitter',
@@ -70,7 +82,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/dscipnupiita/bootcamp-desarrollo-web',
             },
           ],
         },
@@ -86,13 +98,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/dscipnupiita/bootcamp-desarrollo-web',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/dscipnupiita/bootcamp-desarrollo-web/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
