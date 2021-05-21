@@ -1,11 +1,11 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Bootcamp de Desarrollo Web',
+  tagline: 'por DSC IPN - UPIITA',
+  url: 'http://bootcamp-desarrollo-web.vercel.app/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'dscipnupiita', // Usually your GitHub org/user name.
+  projectName: 'bootcamp-desarrollo-web', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
@@ -20,7 +20,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -48,16 +48,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Developer Student Clubs',
+              href: 'https://dsc.community.dev/national-polytechnic-institute-of-mexico-upiita/',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discordapp.com/invite/dscipnupiita',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/dscipnupiita',
             },
           ],
         },
@@ -75,7 +75,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Bootcamp de Desarrollo Web. Built with 💓 by DSC IPN - UPIITA.`,
     },
   },
   presets: [
