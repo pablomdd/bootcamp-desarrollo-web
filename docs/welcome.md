@@ -3,7 +3,7 @@ id: welcome
 title: Bienvenida
 sidebar_label: Bienvenida
 ---
-## Inicia tu carrera en web desde 0 desarrollando proyectos semana a semana.
+> Inicia tu carrera en web desde 0 desarrollando proyectos semana a semana.
 
 Durante 4 semanas, del 21 de mayo al 12 de junio, tendremos clases que te darán las bases para convertirte en un desarrollador web profesional.
 

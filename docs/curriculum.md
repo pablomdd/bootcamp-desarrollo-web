@@ -11,4 +11,4 @@ Nos enfocaremos en una introducción a la web, esto es, los básicos sobre HTML,
 - **Semana 4**: Frameworks de CSS y consumo de APIs. Consume la API de Rick&Morty con TailwindCSS.
 - **Semana 5**. Demo Day. Crea tu portafolio y despliégalo al internet.
 
-Esperamos en el futuro🚀 tener cursos sobre frotend React JS, backend con Django o NodeJS. ¿Te interesaría un curso o proyecto de verano? 🙆‍♀️🙆‍♂️
+Esperamos en el futuro🚀 tener cursos sobre frontend React JS, backend con Django o NodeJS. ¿Te interesaría un curso o proyecto de verano? 🙆‍♀️🙆‍♂️
