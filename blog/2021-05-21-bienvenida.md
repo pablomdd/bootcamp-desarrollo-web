@@ -18,6 +18,10 @@ Bienvenido!
 
 Nuestra meta es que aprendas lo mejor que puedas con nosotros y que puedas aplicar tus conocimientos para poder crear cosas más grandes. Así que trataremos de dar nuestro máximo esfuerzo para ayudarte mientras que pasamos nuestras materias jeje
 
+## Sobre los Developer Student Clubs
+
+Son grupos de comunidades universitarias de estudiantes interesados en las tecnologías de Google. Estudiantes de otras universidades con intereses en crecer como desarrolladores son bienvenidos.
+
 
 ## Recomendaciones
 
