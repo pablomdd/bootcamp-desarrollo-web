@@ -1,9 +1,3 @@
----
-id: homework
-title: Tareas y participación
-sidebar_label: Tareas y participación
----
-
 Para aprobar el bootcamp y demostrar tu conocimiento, deberás entregar los retos semanales que se liberan tras cada clase.
 
 Para esto, desde tu cuenta de GitHub:
