@@ -1,11 +1,11 @@
 ---
 id: bienvenida-bootcamp
 title: Bienvenido!
-author: Luís Rodríguez
-author_title: B.S. Mechatronics Student
-author_url: https://github.com/yangshun
-author_image_url: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
-tags: [hello, bootcamp, docusaurus]
+author: DSC IPN - UPIITA Team
+author_title: Bridge the gap between theory and practice
+author_url: https://github.com/dscipnupiita
+author_image_url:https://github.com/lalodsi/bootcamp-desarrollo-web/blob/main/static/img/google_developers_logo.png
+tags: [hello, bootcamp, dsc, ipn, upiita]
 ---
 
 # Bootcamp de desarrollo web
