@@ -50,7 +50,7 @@ Los atributos se definen dentro de la etiqueta de apertura, después del nombre 
 <a href="https://www.google.com/">Un link</a>
 ```
 [](html-syntax-outline.png)
-<img src="html-syntax-outline.png" />
+<img src="../../../static/img/html-syntax-outline.png" />
 
 ## El documento HTML
 Los documentos HTML son documentos de texto sin formato (*plain text files*) guardados con una extensión de archivo `.html` en lugar de una extensión de archivo `.txt`.
@@ -239,7 +239,7 @@ table {
 
 ## Resumen
 Uff, ¡mucha información para la primera vez no?
-Solo piensa que ahora conoces los conceptos básicos de HTML y CSS. A medida que continuemos y dedique más tiempo a escribir HTML y CSS, te sentirás mucho más cómodo con los dos lenguajes.
+Solo piensa que ahora conoces los conceptos básicos de HTML y CSS. A medida que continuemos y dediques más tiempo a escribir HTML y CSS, te sentirás mucho más cómodo con los dos lenguajes.
 
 En resumen, hasta ahora hemos cubierto lo siguiente:
 
