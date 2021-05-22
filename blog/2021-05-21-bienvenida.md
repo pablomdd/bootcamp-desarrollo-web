@@ -4,7 +4,7 @@ title: Bienvenido!
 author: DSC IPN - UPIITA Team
 author_title: Bridge the gap between theory and practice
 author_url: https://github.com/dscipnupiita
-author_image_url:https://github.com/lalodsi/bootcamp-desarrollo-web/blob/main/static/img/google_developers_logo.png
+author_image_url: https://github.com/lalodsi/bootcamp-desarrollo-web/blob/main/static/img/google_developers_logo.png
 tags: [hello, bootcamp, dsc, ipn, upiita]
 ---
 
