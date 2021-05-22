@@ -13,6 +13,7 @@ module.exports = {
         'week1/02-html-css',
         'week1/03-knowing-html',
         'week1/04-knowing-css',
+        'week1/05-challenge',
         // { 'week1': ['week1/01-introduction'] }
         // {
         //   type: 'doc',
@@ -20,13 +21,13 @@ module.exports = {
         // },
       ]
     },
-    {
+    // {
 
-      type: 'category',
-      label: 'Markdown',
-      items: [
-        'doc1', 'doc2',
-      ]
-    }
+    //   type: 'category',
+    //   label: 'Markdown',
+    //   items: [
+    //     'doc1', 'doc2',
+    //   ]
+    // }
   ]
 };

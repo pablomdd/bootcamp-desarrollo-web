@@ -62,3 +62,7 @@ Durante mucho tiempo, la estructura de una página web se construyó utilizando 
 Todos estos nuevos elementos pretenden dar sentido a la organización de nuestras páginas y mejorar nuestra semántica estructural. Todos son elementos a nivel de bloque y no tienen ninguna posición o estilo implícito. Además, todos estos elementos pueden usarse varias veces por página, siempre que cada uso refleje el significado semántico adecuado.
 
 ![](/img/building-structure.png)
+
+## Saber más
+
+https://developer.mozilla.org/es/docs/Learn/HTML

@@ -133,3 +133,8 @@ Para recapitular brevemente, en esta lección hemos analizado lo siguiente:
 - Cómo usar varias clases en un solo elemento para colocar capas en diferentes estilos para obtener un código más modular
 - Los diferentes valores de color disponibles para usar dentro de CSS, incluidos los valores de palabras clave, hexadecimales, RGB y HSL
 - Los diferentes valores de longitud disponibles para usar dentro de CSS, incluidos píxeles, porcentajes y unidades em
+
+## Saber más
+
+https://web.dev/learn/css/
+https://developer.mozilla.org/es/docs/Learn/CSS
