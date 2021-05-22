@@ -49,8 +49,8 @@ Los atributos se definen dentro de la etiqueta de apertura, después del nombre 
 ```html
 <a href="https://www.google.com/">Un link</a>
 ```
-[](html-syntax-outline.png)
-<img src="../../../static/img/html-syntax-outline.png" />
+![](/img/html-syntax-outline.png)
+<!-- <img src="../../../static/img/html-syntax-outline.png" /> -->
 
 ## El documento HTML
 Los documentos HTML son documentos de texto sin formato (*plain text files*) guardados con una extensión de archivo `.html` en lugar de una extensión de archivo `.txt`.
