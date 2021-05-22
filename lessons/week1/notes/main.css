@@ -23,3 +23,8 @@ a {
     color: yellowgreen;
     font-size: 30px;
 }
+
+.tooltip {
+    font-weight: lighter;
+    color: thistle;
+}
