@@ -13,11 +13,17 @@ body {
     font-weight: bold;
     background-color: white;
     color:rgb(35, 39, 42) !important;
+    text-decoration: none;
 }
 
 .btn-dark {
     background-color: #23272a;
     color: white!important;
+}
+
+.btn-violet {
+    background-color: #5865f2;
+    color: white !important;
 }
 
 .section-spacing {
@@ -120,6 +126,13 @@ section h2 {
     flex-direction: column;
 }
 
+.call-to-action {
+    text-align: center;
+}
+
+.call-to-action h2{
+    margin-bottom: 1em;
+}
 /* footer */
 footer {
     background-color: #23272a;
