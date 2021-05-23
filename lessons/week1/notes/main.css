@@ -1,0 +1,30 @@
+body {
+    background-color: tomato;
+}
+
+h1 {
+    font-size: 120px;
+}
+
+img {
+    width: 1000px;
+}
+
+a {
+    color: violet;
+    font-weight: bold;
+}
+
+.dsc {
+    color: teal;
+}
+
+#descripcion {
+    color: yellowgreen;
+    font-size: 30px;
+}
+
+.tooltip {
+    font-weight: lighter;
+    color: thistle;
+}

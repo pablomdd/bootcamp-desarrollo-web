@@ -1,0 +1,28 @@
+.main-header {
+    height: 500px;
+    background-color: rgb(88, 101, 242);
+    color: #FFFFFF;
+}
+
+.main-header .nav {
+
+}
+
+.main-header .nav ul{
+    display: inline-block;
+    list-style: none;
+}
+.main-header .nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-header .hero p{
+    text-align: center;
+}
+
+.btn {
+    border: black 1px solid;
+    padding: 10px;
+    border-radius: 15px;
+}
