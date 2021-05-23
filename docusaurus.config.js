@@ -1,28 +1,28 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Bootcamp de Desarrollo Web',
+  tagline: 'por DSC IPN - UPIITA',
+  url: 'http://bootcamp-desarrollo-web.vercel.app/',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/google_developers_logo.png',
+  organizationName: 'dscipnupiita', // Usually your GitHub org/user name.
+  projectName: 'bootcamp-desarrollo-web', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Bootcamp Desarrollo Web',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/google_developers_logo.png',
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: 'docs/welcome',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Curso',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/dscipnupiita/bootcamp-desarrollo-web',
           label: 'GitHub',
           position: 'right',
         },
@@ -32,15 +32,27 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Más Información',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: 'Bienvenida',
+              to: 'docs/welcome',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'Qué aprenderás',
+              to: 'docs/curriculum',
+            },
+            {
+              label: 'Requisitos',
+              to: 'docs/requisites',
+            },
+            {
+              label: 'Tareas y participación',
+              to: 'docs/homework',
+            },
+            {
+              label: 'Graduación',
+              to: 'docs/graduation',
             },
           ],
         },
@@ -48,16 +60,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Developer Student Clubs',
+              href: 'https://dsc.community.dev/national-polytechnic-institute-of-mexico-upiita/',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/DnChcJyEAN',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/dscipnupiita',
             },
           ],
         },
@@ -70,12 +82,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/dscipnupiita/bootcamp-desarrollo-web',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Bootcamp de Desarrollo Web. Built with 💓 by DSC IPN - UPIITA.`,
     },
   },
   presets: [
@@ -86,13 +98,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/dscipnupiita/bootcamp-desarrollo-web',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/dscipnupiita/bootcamp-desarrollo-web/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
