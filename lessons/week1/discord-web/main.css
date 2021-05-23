@@ -2,6 +2,40 @@ body {
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* Utilities */
+.btn {
+    padding: 7px 16px;
+    border-radius: 16px;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: bold;
+    background-color: white;
+    color:rgb(35, 39, 42) !important;
+}
+
+.btn-dark {
+    background-color: #23272a;
+    color: white!important;
+}
+
+.section-spacing {
+    padding: 120px 40px;
+    font-size: 20px;
+}
+
+.section-spacing p{
+    margin-top: 24px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Header */
 .main-header {
     height: 500px;
     /* intense violet */
@@ -29,6 +63,7 @@ body {
     padding: 10px;
     font-weight: bold;
 }
+
 .main-header .nav a {
     text-decoration: none;
     color: white;
@@ -38,12 +73,17 @@ body {
     text-align: center;
 }
 
-.btn {
-    padding: 7px 16px;
-    border-radius: 16px;
-    font-size: 12px;
-    line-height: 24px;
+/* Hero */
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    font-size: 2em;
     font-weight: bold;
-    background-color: white;
-    color:rgb(35, 39, 42) !important;
+}
+
+.hero .btn {
+    margin: 2em 2em 0 0;
 }
