@@ -1,16 +1,33 @@
+body {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .main-header {
     height: 500px;
-    background-color: rgb(88, 101, 242);
+    /* intense violet */
+    background-color: rgb(64, 78, 237);
+    /* background-color: rgb(88, 101, 242); */
     color: #FFFFFF;
 }
 
+/* Navbar */
 .main-header .nav {
-
+    padding: 10px 25px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main-header .nav ul{
-    display: inline-block;
+    display: flex;
     list-style: none;
+}
+
+.main-header .nav li{
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
 }
 .main-header .nav a {
     text-decoration: none;
@@ -22,7 +39,11 @@
 }
 
 .btn {
-    border: black 1px solid;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 7px 16px;
+    border-radius: 16px;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: bold;
+    background-color: white;
+    color:rgb(35, 39, 42) !important;
 }
