@@ -34,6 +34,9 @@ body {
     align-items: center;
 }
 
+.bg-creamy {
+    background-color: rgb(246, 246, 246);
+}
 
 /* Header */
 .main-header {
@@ -81,9 +84,37 @@ body {
 .hero h1 {
     text-transform: uppercase;
     font-size: 2em;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .hero .btn {
     margin: 2em 2em 0 0;
+}
+
+/* section */
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0 20px;
+}
+section h2 {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.section-img-left {
+    grid-column: span 7;
+}
+.section-info-right {
+    grid-column: 9/span 4;
+    display: flex;
+    flex-direction: column;
+}
+.section-img-right {
+    grid-column: 5 / span 7;
+}
+.section-info-left {
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
 }
