@@ -109,6 +109,10 @@ section h2 {
     font-weight: 900;
 }
 
+section img {
+    max-width: 100%;
+}
+
 .section-img-left {
     grid-column: span 7;
 }
