@@ -1,5 +1,6 @@
 body {
     font-size: 16px;
+    line-height: 28px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -117,4 +118,50 @@ section h2 {
     grid-column: span 4;
     display: flex;
     flex-direction: column;
+}
+
+/* footer */
+footer {
+    background-color: #23272a;
+    color: white;
+    padding: 80px 64px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0 20px;
+}
+
+.footer-contact {
+    grid-column: span 3;
+}
+.spacer-1-col {
+    grid-column: span 1;
+}
+.footer-column {
+    grid-column: span 2;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 900;
+    color: #5865f2;
+}
+
+footer .language, footer .social-media-links {
+    margin-top: 1em;
+}
+
+footer .social-media-links a{
+    text-decoration: none;
+    color: white;
+}
+footer li{
+    margin-top: 0.5em;
+}
+footer h6 {
+    color: #5865f2;
+    font-size: 1em;
 }
