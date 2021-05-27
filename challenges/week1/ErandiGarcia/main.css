@@ -1,0 +1,64 @@
+.main-header{
+    height: 400px;
+    background-color: rgb(243, 92, 92);
+    color: rgb(250, 250, 250);
+
+}
+
+
+.botones{
+    padding:10px; 
+    border-radius:40%;
+}
+
+.main-header  a{
+    text-decoration: none;
+    padding:10px;
+    color: white;
+}
+
+.main-header .Enter a{
+    text-decoration: none;
+    padding:3%; 
+    color: white;
+}
+.caja1 {  
+    top: 0px;
+    width: 200px;
+    height: 150px; 
+    background-color: rgb(15, 15, 15);}
+
+.caja2 {  
+    padding:10px; 
+    width: 500px;
+    height: 300px; 
+    background-color: rgb(187, 111, 194);}
+
+.info  {   
+    height: 400px;
+    padding:20px; 
+    background-color: rgb(252, 245, 245);
+}
+
+.cajax {   
+    height: 100px;
+    padding:10px; 
+    background-color: rgb(112, 108, 108);
+}
+.caja3 {  
+    align-self: "right";
+    padding:10px; 
+    width: 900px;
+    height: 300px; 
+    background-color: rgb(94, 183, 224);}
+
+.info2  {   
+        height: 400px;
+        padding:20px; 
+        background-color: rgb(102, 100, 100);
+    }
+    
+
+.footer{
+    text-align: right;
+}
