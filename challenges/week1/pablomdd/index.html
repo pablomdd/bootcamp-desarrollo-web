@@ -13,36 +13,39 @@
 <body>
     <header class="main-header">
         <nav class="nav">
+            <a href="#" class="blogr">Blogr</a>
             <ul>
-                <li>Blogr</li>
                 <li>Product</li>
                 <li>Company</li>
-                <li>Connect</li>
-                <li>Login</li>
-                <li>Sing Up</li>
+                <li>Connect</li>            
             </ul>
-
+            <div class="flex-right">
+                <a class="btn btn-transparent" href="#">Login</a>
+                <a class="btn" href="">Sing Up</a>
+            </div>
         </nav>
         <div class="hero section-spacing">
             <h1>A modern publishing platform</h1>
             <p>Grow your audience and build your online brand</p>
             <div class="flex-center">
-                <a class="btn">Start for Free</a>
-                <a class="btn btn-transparent">Learn More</a>
+                <a class="btn" href="#">Start for Free</a>
+                <a class="btn btn-transparent" href="#">Learn More</a>
             </div>
         </div>
     </header>
-
-    <section>
+    <section class="section-spacing hero">
         <h2>Designed for the future</h2>
-        <div>
-            <h3>Introducing an extensible editor</h3>
+    </section>
+
+    <section class="section-grid section-spacing">
+        <div class="section-info-left flex-center">
+            <h3>Introducing an extensible editor</h3> 
             <p>Blogr features an exceedingly intuitive interface which lets you focus 
                 on one thing: creating content. The editor support management of
                 multiple blogs and allows easy manipulation of embeds such as images,
                 videos, and Markdown. Extensibility with plugins and themes provide
                 easy ways to add functionality or change the looks of a blog.
-            </p>
+            </p> 
             <h3>Robust content management</h3>
             <p>Flexible content management enables users to easily move through
                 post. Increase the usability of your blog by adding customized
@@ -50,57 +53,76 @@
                 full control.
             </p>
         </div>
+        <div class="section-img-right flex-center">
+            <img src="static/img/img-02.svg">
+        </div>
     </section>
 
-    <section>
-        <h2>State of the Art Infrastructure</h2>
-        <p>With reliability and speed in mind, worldwide data centers provide the 
+
+    <section class="section-grid section-spacing bg-dark">
+        <div class="section-img-left flex-center">
+            <img src="static/img/img-01.svg">
+        </div>
+        <div class="section-info-right flex-center">
+            <h2>State of the Art Infrastructure</h2>
+            <p>With reliability and speed in mind, worldwide data centers provide the 
             backbone for ultra-fast connectivity. This ensures your site will load
             instantly, no matter where your readers are, keeping your site
             competitive.</thead></p>
+        </div>
     </section>
 
-    <section>
-        <h3>Free, open, simple</h3>
-        <p>Blogr is a free and open source application backed by a large
-            community of helpful developers. It supports features such as code
-            syntax highlighting, RSS feeds, social media integration, thrid-party
-            commenting tools, and works seamlessly with Google Analytics. The
-            architecture is clean and is relatively easy to learn.
-        </p>
-        <h3>Powerful tooling</h3>
-        <p>Batteries included. We built a simple and straightforward CLI tool that
-            makes customization and deplyment a breeze, but capable of
-            producing even the most complicated sites.
-        </p>
+    <section class="section-grid section-spacing">
+        <div class="section-img-left flex-center">
+            <img src="static/img/img-01.svg">
+        </div>
+        <div class="section-info-right flex-center">
+            <h3>Free, open, simple</h3>
+            <p>Blogr is a free and open source application backed by a large
+                community of helpful developers. It supports features such as code
+                syntax highlighting, RSS feeds, social media integration, thrid-party
+                commenting tools, and works seamlessly with Google Analytics. The
+                architecture is clean and is relatively easy to learn.
+            </p>
+            <h3>Powerful tooling</h3>
+            <p>Batteries included. We built a simple and straightforward CLI tool that
+                makes customization and deplyment a breeze, but capable of
+                producing even the most complicated sites.
+            </p>
+        </div>
+        
     </section>
     
     <footer class="footer-spacing footer-grid">
         <div class="footer-contact">
             <h3>Blogr</h3>
-            <p class="language">Idioma: Español</p>
-            <ul class="social-media-links">
-                <li><a href="">Twitter</a></li>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Facebook</a></li>
-            </ul>
         </div>
         <div class="spacer-1-col"></div>
         <div class="footer-column">
-            <h6>Producto</h6>
+            <h6>Product</h6>
             <ul>
-                <li>Descargar</li>
-                <li>Nitro</li>
-                <li>Estado</li>
+                <li>Overview</li>
+                <li>Pricing</li>
+                <li>Marketplace</li>
+                <li>Features</li>
+                <li>Integrations</li>
             </ul>
         </div>
         <div class="footer-column">
-            <h6>Compañia</h6>
+            <h6>Company</h6>
             <ul>
-                <li>Sobre nosotros</li>
-                <li>Trabajos</li>
-                <li>Marca</li>
-                <li>Noticias</li>
+                <li>About</li>
+                <li>Team</li>
+                <li>Blog</li>
+                <li>Careers</li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h6>Connect</h6>
+            <ul>
+                <li>Contact</li>
+                <li>Newsletter</li>
+                <li>LinkedIn</li>
             </ul>
         </div>
     </footer>
