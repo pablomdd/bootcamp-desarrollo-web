@@ -30,4 +30,5 @@ Por lo general, puede leer los valores como si fueran solo un número, como por 
 
 ## Ver más
 
-https://web.dev/learn/css/specificity/
+- https://web.dev/learn/css/specificity/
+- Specificy calculator: https://specificity.keegan.st/
