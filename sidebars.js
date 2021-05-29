@@ -28,7 +28,7 @@ module.exports = {
         'week2/01-intro-week2',
         'week2/02-specificity',
         'week2/03-box-model',
-        'week2/04-positioning',
+        // 'week2/04-positioning',
         'week2/05-fonts',
         'week2/06-backgrounds',
         'week2/07-flexbox',
