@@ -21,6 +21,21 @@ module.exports = {
         // },
       ]
     },
+    {
+      type: 'category',
+      label: 'Semana 2',
+      items: [
+        'week2/01-intro-week2',
+        'week2/02-specificity',
+        'week2/03-box-model',
+        // 'week2/04-positioning',
+        'week2/05-fonts',
+        'week2/06-backgrounds',
+        'week2/07-flexbox',
+        'week2/08-week2-practice',
+        'week2/09-week2-challenge',
+      ]
+    },
     // {
 
     //   type: 'category',
