@@ -1,0 +1,103 @@
+/* article {
+    margin:0 20px 50px;
+}
+.parent-box {
+    background-color: cornflowerblue;
+    border: solid darkorange 10px ;
+} */
+
+/* .my-box-model {
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    border: solid 30px black;
+    margin: 10%;
+    box-sizing: content-box;
+}
+
+code {
+    background: #eaeaed;
+    color: #666;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    display: inline-block;
+    height: 70px;
+    margin: 0 14px;
+    padding-top: 20px;
+    text-align: center;
+    width: 90px;
+  }
+
+  .border-solid {
+    border: 2px solid #9799a7;
+  }
+  .border-double {
+    border: 6px double #9799a7;
+  }
+  .border-dashed {
+    border: 8px dashed #9799a7;
+  }
+  .border-dotted {
+    border: 4px dotted #9799a7;
+  } */
+
+/* .my-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: teal;
+    height: 800px;
+}
+
+.my-element > * {
+  max-width: 280px;
+  border: springgreen 2px solid;
+  background-color: tan;
+}
+*/
+.box {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100px;
+    border: springgreen 2px solid;
+    background-color: tan;
+}
+
+
+/* .my-element {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: teal;
+    height: 800px;
+} */
+
+.my-element #caja1{
+    grid-row: 1/3;
+    grid-column: 1/4;
+}
+  
+.my-element {
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+gap: 1rem;
+max-width: 500px;
+}
+
+.parent {
+    padding: 0.5rem 2rem 2rem;
+    height: 1000px;
+    /* position property */
+    position: relative;
+    background: aliceblue;
+    border: 1px solid tomato;
+  }
+  
+  .child {
+    top: 1.5rem;
+    left: 1.5rem;
+  }
+  
+  .parent p {
+    margin: 1em 0;
+  }
+  
