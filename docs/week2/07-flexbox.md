@@ -131,6 +131,18 @@ Podríamos definir que el primer elemento de esta cuadrícula ocupa 2 filas y 3 
 }
 ```
 
+## Más sobre Flexbox y Grid
+- 1 Line Layouts: https://1linelayouts.glitch.me/
+  
+**Flexbox**
+- https://flexboxfroggy.com/#es
+- https://web.dev/learn/css/flexbox/
+
+**Grid**
+- https://cssgridgarden.com/#es
+- https://web.dev/learn/css/grid/
+
+
 ## Flow layouts
 
 Si no se usa grid o flexbox, los elementos se muestran en flujo (*flow*) normal. Hay varios métodos de diseño que puede utilizar para ajustar el comportamiento y la posición de los elementos cuando están en *flow* normal.
@@ -140,13 +152,6 @@ Si tienes una imagen que se encuentra dentro de un párrafo de texto, ¿no serí
 
 La propiedad `float` indica a un elemento que "flote" en la dirección especificada. Se indica a la imagen de este ejemplo que flote a la izquierda, lo que permite que los elementos hermanos se "envuelvan" a su alrededor. Puede indicarle a un elemento que flote a la izquierda, a la derecha o herede.
 
-**CSS**
-```css
-.countries {
-  column-count: 4;
-  column-gap: 1em;
-}
-```
 **HTML**
 
 ```html
@@ -181,7 +186,15 @@ p + p {
 ```
 
 ### Layout multicolumna
+Teniendo una lista, es fácil separar el contenido en columnas del mismo tamaño.
 
+**CSS**
+```css
+.countries {
+  column-count: 4;
+  column-gap: 1em;
+}
+```
 
 ```html
 <ul class="countries">
@@ -262,54 +275,7 @@ p + p {
   <li>Finland</li>
   <li>France</li>
   <li>French Guiana</li>
-  <li>French Polynesia</li>
-  <li>French Southern Territories</li>
-  <li>Gabon</li>
-  <li>Gambia</li>
-  <li>Georgia</li>
-  <li>Germany</li>
-  <li>Ghana</li>
-  <li>Gibraltar</li>
-  <li>Greece</li>
-  <li>Greenland</li>
-  <li>Grenada</li>
-  <li>Guadeloupe</li>
-  <li>Guam</li>
-  <li>Guatemala</li>
-  <li>Guernsey</li>
-  <li>Guinea</li>
-  <li>Guinea-Bissau</li>
-  <li>Guyana</li>
-  <li>Haiti</li>
-  <li>Heard Island and Mcdonald Islands</li>
-  <li>Holy See (Vatican City State)</li>
-  <li>Honduras</li>
-  <li>Hong Kong</li>
-  <li>Hungary</li>
-  <li>Iceland</li>
-  <li>India</li>
-  <li>Indonesia</li>
-  <li>Iran, Islamic Republic of</li>
-  <li>Iraq</li>
-  <li>Ireland</li>
-  <li>Isle of Man</li>
-  <li>Israel</li>
-  <li>Italy</li>
-  <li>Jamaica</li>
-  <li>Japan</li>
-  <li>Jersey</li>
-  <li>Jordan</li>
-  <li>Kazakhstan</li>
-  <li>Kenya</li>
-  <li>Kiribati</li>
-  <li>Korea, Democratic People"s Republic of</li>
-  <li>Korea, Republic of</li>
-  <li>Kosovo</li>
-  <li>Kuwait</li>
-  <li>Kyrgyzstan</li>
-  <li>Lao People's Democratic Republic</li>
-  <li>Latvia</li>
-  <li>Lebanon</li>
+ 
   <li>Lesotho</li>
   <li>Liberia</li>
   <li>Libyan Arab Jamahiriya</li>
@@ -342,51 +308,6 @@ p + p {
   <li>Namibia</li>
   <li>Nauru</li>
   <li>Nepal</li>
-  <li>Netherlands</li>
-  <li>Netherlands Antilles</li>
-  <li>New Caledonia</li>
-  <li>New Zealand</li>
-  <li>Nicaragua</li>
-  <li>Niger</li>
-  <li>Nigeria</li>
-  <li>Niue</li>
-  <li>Norfolk Island</li>
-  <li>Northern Mariana Islands</li>
-  <li>Norway</li>
-  <li>Oman</li>
-  <li>Pakistan</li>
-  <li>Palau</li>
-  <li>Palestinian Territory, Occupied</li>
-  <li>Panama</li>
-  <li>Papua New Guinea</li>
-  <li>Paraguay</li>
-  <li>Peru</li>
-  <li>Philippines</li>
-  <li>Pitcairn</li>
-  <li>Poland</li>
-  <li>Portugal</li>
-  <li>Puerto Rico</li>
-  <li>Qatar</li>
-  <li>Reunion</li>
-  <li>Romania</li>
-  <li>Russian Federation</li>
-  <li>Rwanda</li>
-  <li>Saint Barthelemy</li>
-  <li>Saint Helena</li>
-  <li>Saint Kitts and Nevis</li>
-  <li>Saint Lucia</li>
-  <li>Saint Martin</li>
-  <li>Saint Pierre and Miquelon</li>
-  <li>Saint Vincent and the Grenadines</li>
-  <li>Samoa</li>
-  <li>San Marino</li>
-  <li>Sao Tome and Principe</li>
-  <li>Saudi Arabia</li>
-  <li>Senegal</li>
-  <li>Serbia</li>
-  <li>Serbia and Montenegro</li>
-  <li>Seychelles</li>
-  <li>Sierra Leone</li>
   <li>Singapore</li>
   <li>Sint Maarten</li>
   <li>Slovakia</li>
