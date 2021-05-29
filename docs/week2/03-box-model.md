@@ -26,6 +26,8 @@ De acuerdo con el concepto del **modelo de caja**, cada elemento de una página 
 - *Margin box*: el margen es la capa más externa, que envuelve el contenido, el relleno y el borde como un espacio en blanco entre este caja y otros elementos. Su tamaño se puede controlar mediante el `margin` (margen) y las propiedades relacionadas.
 
 ## Propiedades
+
+![](/img/margin-shorthand.svg)
 ### Margin
 - `margin-top`
 - `margin-right`

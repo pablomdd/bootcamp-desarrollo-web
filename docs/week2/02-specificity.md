@@ -32,3 +32,5 @@ Por lo general, puede leer los valores como si fueran solo un número, como por 
 
 - https://web.dev/learn/css/specificity/
 - Specificy calculator: https://specificity.keegan.st/
+
+Lectura sobre la Herencia en CSS: https://web.dev/learn/css/inheritance/
