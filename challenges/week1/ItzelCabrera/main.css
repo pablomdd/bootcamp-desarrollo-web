@@ -1,0 +1,160 @@
+.logo{
+    font-size: 30px;
+}
+
+.main-header{
+    font-family:Barlow, sans-serif;
+    background-color: salmon;
+    color: white;
+    border-bottom-left-radius: 60px;
+}
+
+.main-header .nav {
+    padding: 10px 25px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header .nav .header-list{
+    /*config de la lista del header*/
+    display:flex;
+    list-style:none;
+    padding-left: 10px;
+}
+
+.main-header .nav .header-list .dd-li{
+    /*config de los elementos de la lista del header*/
+    padding-right: 10px;
+}
+
+.main-header .nav .dd-el{
+    /*config de los elementos de las listas desplegables*/
+    list-style:none;
+}
+
+.hero{
+    text-align: center;
+    line-height: 60px;
+}
+
+.hero h1{
+    font-size: 50px;
+}
+
+.btn{
+    padding: 7px 16px;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 24px;
+    text-decoration: none;
+    background-color: white;
+    color: salmon!important;
+} 
+
+.btn-salmon{
+    background-color: salmon;
+    border: 2px solid white;
+    color: white!important;
+} 
+
+#login{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.section-spacing{
+    padding-top: 100px;
+    padding-bottom: 100px;  
+}
+
+.s{
+    font-family:Barlow, sans-serif;  
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.s-div{
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
+
+.s h4{
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(24, 52, 112);
+    padding-bottom: 20px;
+}
+
+.s1 h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(13, 44, 110);
+}
+
+.s1 img{
+    width: 250px;
+    float: right;
+}
+
+.s2{
+    background-color: rgb(53, 52, 131);
+    color: white;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 60px;
+    display: flex;
+}
+
+.s2 h2{
+    font-size: 30px;
+    text-align: right;
+    padding-right: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.s2 p{
+    text-align: justify;
+    padding-left: 250px;
+    padding-right: 100px;
+}
+
+.s2 img{
+    width: 200px;
+    float: left;
+}
+
+.s3 img{
+    width: 250px;
+    float: left;
+}
+
+.main-footer{
+    background-color: rgb(53, 52, 131);
+    border-top-right-radius: 60px;
+    color: aliceblue;
+    font-family: Barlow, sans-serif;;
+}
+
+.main-footer .f-div{
+    padding-top: 15px;
+    display: flex;
+    justify-content:space-around;
+    padding-left: 10px;
+}
+
+.main-footer .f-div ul {
+    padding-bottom: 20px;
+}
+
+.main-footer .f-div ul li{
+    padding-bottom: 10px;
+}

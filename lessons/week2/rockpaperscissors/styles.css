@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,800&display=swap');
+
+body {
+    background-color: #24272e;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;   
+}
+
+.title-section {
+    background-color: white;
+    color: black;
+    padding: 2em;
+    text-align: center;
+    font-weight: 800;
+}
+
+.score-board-section {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score-board {
+    height: 100px;
+    width: 200px;
+    padding: 1em;
+    border: 2px solid white;
+    border-radius: 12px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.badge {
+    background-color: tomato;
+    padding: .5em;
+    border-radius: 5px;
+}
+.score-board-section #user-label{
+    position: absolute;
+    top: 50px;
+    left: -20px;
+}
+.score-board-section #computer-label{
+    position: absolute;
+    top: 50px;
+    right: -40px;
+}
+.score-board-section #score{
+    font-size: 4em;
+    text-align: center;
+}
+
+.result {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 3em;
+}
+
+.choices-section {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 20px;
+}
+
+.choice {
+    height: 170px;
+    width: 170px;
+    margin: 0 20px;
+    border-radius: 50%;
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8em;
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 50px;
+}
