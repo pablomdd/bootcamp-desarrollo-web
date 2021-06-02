@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: space-between;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    align-items: center;
+}
+
+header > * {
+    margin: 10px 7px;
+    color: black;
+    text-decoration: none;
+}
+
+header button {
+    background-color: #007bff;
+    padding: 7px 13px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+}
+
+main {
+    align-self: center;
+    height: 700px;
+    text-align: center;
+    margin: auto 0;
+}
+
+main img {
+    width: 350px;
+}
+
+main input {
+    width: 500px;
+    height: 30px;
+    border-radius: 25px;
+    border: dimgrey solid 1px;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    position: relative;
+}
+
+.search-input-label input {
+    padding-left: 40px;
+}
+
+.search-input-label {
+    position: relative;
+}
+
+.search-input-label .fa-search {
+    position: absolute;
+    left: 0;
+    top: -6px;
+    padding: 9px 8px;
+}
+
+.search-input-label .fa-microphone {
+    position: absolute;
+    right: 0;
+    top: -6px;
+    padding: 9px 8px;
+    color: #007bff;
+}
+
+
+.inputPadding {
+    padding-left: 40px;
+}
+
+.search-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    padding: 0;
+    background-color: #f4f4f4;
+    margin: 0;
+    position: absolute;
+    bottom: -380px;
+    width: 100%;
+}
+
+footer > * {
+    border: #c1c1c1 1px solid;
+    padding: 1% 1%;
+    color: dimgrey;
+    font-weight: bolder;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: dimgrey;
+
+}
+
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main button:focus {
+    border-radius: 25px;
+    border: dimgrey solid 1px;
+}
+
+main button:hover {
+    border-radius: 25px;
+    border: dimgrey solid 1px;
+}
+
+main button:active {
+    border-radius: 25px;
+    border: dimgrey solid 1px;
+}
+
+main button::selection {
+    border-radius: 25px;
+    border: dimgrey solid 1px;
+}
