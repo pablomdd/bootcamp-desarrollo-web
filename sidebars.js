@@ -36,6 +36,13 @@ module.exports = {
         'week2/09-week2-challenge',
       ]
     },
+    {
+      type: 'category',
+      label: 'Semana 3',
+      items: [
+        'week3/01-week3-intro',
+      ]
+    },
     // {
 
     //   type: 'category',
