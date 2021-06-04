@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FizzBuzz</title>
+
+    <style>
+        body {
+            background-color: turquoise;
+            font-size: 60px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 0;
+        }
+
+        .box {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #button {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            font-size: 75px;
+            background: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <button id="button">+</button>
+        <p id="text">0</p>
+    </div>
+
+    <script>
+        let counter = 0;
+        let button = document.getElementById("button");
+        let text = document.getElementById("text");
+
+        text.innerHTML = counter;
+
+        const fizzbuzz = (counter) => {
+            if (counter % 15 === 0)
+                text.innerHTML = "FizzBuzz";
+            else if (counter % 3 === 0)
+                text.innerHTML = "Fizz";
+            else if (counter % 5 === 0)
+                text.innerHTML = "Buzz";
+            else
+                text.innerHTML = counter;
+        };
+
+        const incrementCounter = () => {
+            counter++;
+            fizzbuzz(counter);
+        };
+
+        function main() {
+            button.addEventListener('click', () => incrementCounter());
+        }
+        main();
+    </script>
+</body>
+
+</html>
