@@ -41,6 +41,7 @@ module.exports = {
       label: 'Semana 3',
       items: [
         'week3/01-week3-intro',
+        'week3/week3-challenge',
       ]
     },
     // {
