@@ -1,5 +1,5 @@
 ---
-id: 03-week3-arrays
+id: 04-week3-arrays
 title: Arrays
 sidebar_label: Arrays
 ---

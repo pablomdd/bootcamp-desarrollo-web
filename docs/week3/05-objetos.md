@@ -1,5 +1,5 @@
 ---
-id: 03-week3-arrays
+id: 05-week3-objetos
 title: Objetos
 sidebar_label: Objetos
 ---

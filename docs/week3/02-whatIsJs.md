@@ -16,7 +16,7 @@ Javascript puede ser ejecutado no solo en el navegador, tambien en el servidor.
 
 ### Javascript interno
 
-Puedes agregar tu código Javascript directamente en nuestro archivo html agregando la etiqueta <script> justo antes de tu etiqueta de cierre </head>: 
+Puedes agregar tu código Javascript directamente en nuestro archivo html agregando la etiqueta `<script>` justo antes de tu etiqueta de cierre `</head>`: 
 
 ```html
 <head>
@@ -32,7 +32,7 @@ Puedes agregar tu código Javascript directamente en nuestro archivo html agrega
 ```
 
 ### Javascript externo
-Tambien poner nuestro JavaScript en un archivo externo. Esto cambiando nuestra etiqueta <script> de la siguiente forma:
+Tambien poner nuestro JavaScript en un archivo externo. Esto cambiando nuestra etiqueta `<script>` de la siguiente forma:
 
 ```html
 <head>
@@ -45,7 +45,7 @@ Tambien poner nuestro JavaScript en un archivo externo. Esto cambiando nuestra e
 
 Y posteriormente creando un archivo script.js con nuestro código.
 
-Usamos una función de JavaScript más moderno para resolver el problema, el atributo defer, que le dice al navegador que continúe descargando el contenido HTML una vez que se ha alcanzado la etiqueta del elemento <script>.
+Usamos una función de JavaScript más moderno para resolver el problema, el atributo defer, que le dice al navegador que continúe descargando el contenido HTML una vez que se ha alcanzado la etiqueta del elemento `<script>`.
 
 En este caso, tanto el script como el HTML se cargarán simultáneamente y el código funcionará.
 
@@ -56,7 +56,6 @@ Con ayuda de javascript podemos manipular el DOM de nuestra página web, creando
 const fieldFirstName = document.getElementById("firstName");
 fieldFirstName.innerHTML = 'Juan'
 ```
-## Eventos
 
 ## Fuentes
 - https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript
