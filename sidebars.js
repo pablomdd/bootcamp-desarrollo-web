@@ -41,6 +41,10 @@ module.exports = {
       label: 'Semana 3',
       items: [
         'week3/01-week3-intro',
+        'week3/02-week3-whatIsJS',
+        'week3/03-week3-fundamentals',
+        'week3/04-week3-arrays',
+        'week3/05-week3-objetos',
         'week3/week3-practice',
         'week3/week3-challenge',
       ]
