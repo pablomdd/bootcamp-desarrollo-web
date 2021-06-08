@@ -1,0 +1,182 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+
+main {
+    background-color: #fb6a64;
+    color: #fbe9e7;
+    padding: 3%;
+    border-radius: 0 0 0 150px;
+    height: 40vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    align-items: center;
+
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 42px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    margin: 40px 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.title p {
+    margin: 30px 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+.button {
+    border-radius: 40px;
+    border: 0;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    color: #e9080d;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+
+.button-1 {
+    background-color: #fb6a64;
+    color: #fbe9e7;
+    border: 1px #fbe9e7 solid;
+}
+
+.list {
+    margin-right: 5px;
+}
+
+div {
+    margin: 10px;
+}
+
+.start button {
+    margin-right: 30px;
+}
+
+
+section, main {
+    margin-bottom: 80px;
+}
+
+
+section {
+    text-align: center;
+}
+
+.cel {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.cel img {
+    margin-left: 30px;
+    border-radius: 41px;
+    position: relative;
+    top: -70px;
+}
+
+.cel .img-2 {
+    top: 70px;
+
+}
+
+.cel-container article {
+    width: 60%;
+}
+
+.cel-container {
+    background-color: #393c58;
+    color: #ffff;
+    border-radius: 0 0 0 150px;
+}
+
+section article {
+    text-align: left;
+    margin: 100px 0 100px 70px;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 300px;
+}
+
+.container .img-article {
+    align-self: center;
+    margin: 0 100px;
+}
+
+.img-article img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+article {
+    width: 70%;
+}
+
+section h2 {
+    margin-bottom: 30px;
+}
+
+
+footer {
+    background-color: #23232a;
+    color: #fbe9e7;
+    padding: 7% 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+table {
+    text-align: left;
+}
+th, td {
+    text-align: left;
+    width:150px;
+    padding:10px
+
+}
