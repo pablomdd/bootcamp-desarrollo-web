@@ -49,8 +49,19 @@ module.exports = {
         'week3/week3-challenge',
       ]
     },
+    {
+      type: 'category',
+      label: 'Semana 4',
+      items: [
+        'week4/01-introduccion',
+        'week4/02-apis',
+        'week4/03-proyecto-api',
+        'week4/04-frameworks',
+        'week4/05-proyecto-conjunto',
+        'week4/06-desafio',
+      ]
+    },
     // {
-
     //   type: 'category',
     //   label: 'Markdown',
     //   items: [
